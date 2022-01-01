@@ -1,0 +1,553 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link rel="stylesheet" type="text/css" href="CSS/960.css"/>
+<style>
+
+#bar
+{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+}
+
+#header
+{
+    height: 200px;
+    background-color: white;
+    
+}
+
+#login
+{
+    height: 280px;
+    background-image: -webkit-linear-gradient(#fcc36d, 
+ #e29b18); ;
+}
+#welcome
+{
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#welcome-img
+{
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("A_materials/map.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#news
+{
+    height: 580px;
+    background-color:#027474;
+}
+#content
+{
+    border-top: 2px dotted rgba(77, 77, 77, 0.589);
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+}
+#introduction_1
+{
+    height: 320px;
+    width: 340px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+#introduction_2
+{
+    margin-left: 5px;
+    height: 320px;
+    width: 300px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    top: -320px;
+    left: 320px;
+    border-left: 2px dotted rgba(77, 77, 77, 0.589);
+}
+#introduction_3
+{
+    border-top:  2px dotted rgba(77, 77, 77, 0.589);
+    height: 260px;
+    width: 620px;
+    position: relative;
+    top: -320px;
+    background-color: rgb(255, 255, 255);
+}
+#footer
+{
+    height: 100px;
+    background-color: rgb(187, 134, 20);
+    text-align: center;
+    line-height: 40px;
+}
+
+
+.home
+{   position: relative;
+    height: 75px;
+    width: 190px;
+    background-color:rgb(29, 109, 163);
+    border: 0.8px solid white;
+    color: aliceblue; 
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+    
+}
+.home:hover
+{
+    background: rgb(224, 211, 24);
+    text-decoration: none;
+  
+}
+.clients
+{   position: relative;
+    left: 190px;
+    top: -76.5px;
+    height: 75px;
+    width: 190px;
+    background-color:rgb(29, 109, 163);
+    border: 0.8px solid white;
+    color: aliceblue; 
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.clients:hover
+{
+    background: rgb(224, 211, 24);
+    text-decoration: none;
+  
+}
+.services
+{   position: relative;
+    left: 380px;
+    top: -153px;
+    height: 75px;
+    width: 190px;
+    background-color:rgb(29, 109, 163);
+    border: 0.8px solid white;
+    color: aliceblue; 
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.services:hover
+{
+    background: rgb(224, 211, 24);
+    text-decoration: none;
+    
+}
+.about-us
+{   position: relative;
+    left: 570px;
+    top: -229.5px;
+    height: 75px;
+    width: 190px;
+    background-color:rgb(29, 109, 163);
+    border: 0.8px solid white;
+    color: aliceblue; 
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.about-us:hover
+{
+    background: rgb(224, 211, 24);
+    text-decoration: none;
+  
+}
+.contact
+{   position: relative;
+    left: 760px;
+    top: -306.5px;
+    height: 75px;
+    width: 180px;
+    background-color:rgb(29, 109, 163);
+    border: 0.8px solid white;
+    color: aliceblue; 
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+.contact:hover
+{
+    background: rgb(224, 211, 24);
+    text-decoration: none;
+  
+}
+
+.header
+{
+    width: 940px;
+    height: 200px;
+}
+.login-text
+{
+   margin: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color:rgba(65, 65, 65,0.8);
+}
+   
+
+.login-head
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 28px;
+    color:rgba(65, 65, 65,0.8);
+}
+.users
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color:rgba(65, 65, 65,0.8);
+}
+.password
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color:rgba(65, 65, 65,0.8);
+}
+.rememberMe
+{
+    margin: 5px;
+    font-size: 15px;
+}
+.more
+{
+    margin: 4px;
+    font-size: 15px;
+}
+.welcome-head
+{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(79, 169, 221);
+    font-size: 28px;
+    margin: 20px;
+}
+.welcome-text
+{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(153, 153, 153,0.7);
+    font-size: 15px;
+    margin: 20px;
+}
+.read-more
+{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    
+}
+.read-more1
+{
+    width: 60px;
+    height: 20px;
+}
+.News-head
+{
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(252, 252, 252,0.8);
+}
+.new-title
+{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: rgb(245, 218, 69);
+    
+    font-family:	Brush Script MT;
+}
+.new-title:hover
+{
+    color: rgb(255, 251, 0);
+}
+.news-con
+{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: rgb(252, 252, 252,0.98);
+    font-family: Times New Roman;
+    font-weight: bold;
+}
+.introduction-1-head
+{
+   
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(83, 83, 83, 0.9);
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.intr-con
+{
+    
+    color: rgb(224, 203, 15);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    
+}
+.intr-con:hover
+{
+    color: rgb(255, 230, 2);
+}
+.introduction-img
+{
+    width: 80px;
+    height: 80px;
+}
+.intr-con3
+{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 230px;
+    top:-60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.int3-img
+{
+    position: relative;
+    left: -5px;
+    top: 50px;
+
+}
+.foot1
+{
+    margin: 10px;
+    
+}
+.ft1
+{
+    margin-right: 40px;
+    
+  
+}
+.ft2
+{
+    margin-right: 40px;
+}
+.ft3
+{
+    margin-right: 40px;
+}
+.ft4
+{
+    margin-right: 40px;
+}
+.ft5
+{
+    margin-right: 40px;
+}
+#bar
+{
+    height: 80px;
+    background-color: rgb(173, 85, 85);
+}
+ul
+{
+    list-style-type: none;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left:-40px;
+    width: 960px;
+    top: -16px;
+}
+li
+{
+    float: left;
+    background-color: rgb(77, 146, 206);
+    border:1px solid white;
+}
+.li-a
+{
+    display: block;
+    text-decoration: none;
+    height: 80px;
+    line-height: 80px;
+    width: 186px;
+    font-weight: bold;
+    color: white;
+    
+}
+.li-a:hover
+{
+    background-color:rgb(255, 241, 44);
+}
+
+</style>
+</head>
+<body>
+<div class="container_12 ">
+    <div class="grid_12" id="bar">
+        <ul>
+            <li><a class="li-a" href="">Home</a></li>
+            <li><a class="li-a" href="">Clients</a></li>
+            <li><a class="li-a" href="">Services</a></li>
+            <li><a class="li-a" href="">About Us</a></li>
+            <li><a class="li-a" href="">Contact</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="grid_12" id="header">
+        <img class="header" src="image/header.png">
+    </div>
+
+    <div class="grid_4" id="login">
+       <div class="login-text" >
+            <div class="login-head"><h>Member login</h></div>
+            <div class="users"><p>Use Login</p></div>
+            <div ><input type="text" name="users"/></div>
+            <div class="password"><p>Password</p></div>
+            <div><input type="password" name="password" /></div>
+            <div class="rememberMe"><input type="checkbox">Remember me</div>
+            <div class="more">No Account Yet?<a href="">Register</a></div>
+            <div><input type="submit" name="submit"></div>
+        </div>
+    </div>
+
+    <div class="grid_5" id="welcome">
+        <div class="welcome-head">Welcome to Our Company</div>
+        <div class="welcome-text">The focus is on design, development and implementation of new, existing or turnaround call centers.Our team of consultants are world leading providers in solutions that help organizations of all sizes to optimize and streamline their operation and cost</div>
+        <div class="read-more"><a href=""><img class="read-more1" src="A_materials/rd.gif" ></a></div>
+    
+    
+    
+    
+    </div>
+
+    <div class="grid_3" id="welcome-img">
+
+    </div>
+    <div class="grid_4" id="news">
+        <div class="News-head">News Updates</div>
+<marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="6">
+        <div class="new1">
+            <div class="new-title"><a class="new-title" href="">12-10-2007</a></div>
+            <div class="news-con">Let us turn your stressful environment into a tranquil setting with plants.</div>
+        </div>
+        <div class="new1">
+            <div class="new-title"><a class="new-title" href="">04-11-2007</a></div>
+            <div class="news-con">Trees and blooming plants will create and and more.Trees and blooming plants will create and and more.</div>
+        </div>
+        <div class="new1">
+            <div class="new-title"><a  class="new-title" href="">11-01-2008</a></div>
+            <div class="news-con">impressive entrance for your clients and a relaxing area for your employees. </div>
+        </div>
+        <div class="new1">
+            <div class="new-title"><a class="new-title"  href="">11-01-2008</a></div>
+            <div class="news-con">impressive entrance for your clients and a relaxing area for your employees. </div>
+        </div>
+        <div class="new1">
+            <div class="new-title"><a class="new-title"  href="">04-02-2008</a></div>
+            <div class="news-con">Let us turn that empty into a company oasis! trees and blooming plants will create.</div>
+        </div>
+        <div class="new1">
+            <div class="new-title"><a class="new-title"  href="">11-01-2008</a></div>
+            <div class="news-con">impressive entrance for your clients and a relaxing area for your employees. Trees and blooming plants will create and and more.
+            </div>
+        </div>
+</marquee>
+    </div>
+
+    <div class="grid_8" id="content">
+
+        <div id="introduction_1">
+            <div class="inr-1">
+                <div class="introduction-1-head">Our Specializing</div>
+  
+                <div class="introduction-1-con"><img src="A_materials/blt.gif" width="8px" height="12px"><a href="" class="intr-con">Process reengineering</a></div>
+                <br/>
+                <div class="introduction-1-con"><img src="A_materials/blt.gif" width="8px" height="12px"><a href="" class="intr-con">Benchmarking based on call center needs</a></div>
+                <br/>
+                <div class="introduction-1-con"><img src="A_materials/blt.gif" width="8px" height="12px" ><a href="" class="intr-con">Employee coaching and development</a></div>
+                <br/>
+                <div class="introduction-1-con"><img src="A_materials/blt.gif" width="8px" height="12px" ><a href="" class="intr-con">Increase customer satisfaction</a></div>
+                <br/>
+                <div class="introduction-1-con"><img src="A_materials/blt.gif" width="8px" height="12px" ><a href="" class="intr-con">Management training and coaching</a></div>
+                <br/>
+                <div class="introduction-1-con"><img src="A_materials/blt.gif" width="8px" height="12px" ><a href="" class="intr-con">CRM and CTI applications</a></div>
+                
+                <div class="introduction-img"><img src="A_materials/rd_lf.gif"></div>
+            </div>
+        </div>
+
+        <div id="introduction_2">
+            <div class="introduction-1-head">Our Clients</div>
+            <div class="introduction-1-con"><img src="A_materials/blt.gif"  width="8px" height="12px"><a href="" class="intr-con">Bank of America</a></div>
+            <div class="intr">Pasadena, New Bay Area</div>
+            <br/>
+            <div class="introduction-1-con"><img src="A_materials/blt.gif"  width="8px" height="12px"><a href="" class="intr-con">Union Bank of California</a></div>
+            <div class="intr">Monterey Park, West Coast California </div>
+            <br/>
+            <div class="introduction-1-con"><img src="A_materials/blt.gif"  width="8px" height="12px"><a href="" class="intr-con">JCB Int'l Bank</a></div>
+            <div class="intr">Los Angeles/ Tokyo Calabasas</div>
+            <br/>
+            <div class="introduction-1-con"><img src="A_materials/blt.gif"  width="8px" height="12px"><a href="" class="intr-con">LTD First Bank of Beverly Hills</a></div>
+            <div class="intr">All around the world</div>
+        
+            <div class="introduction-img"><img src="A_materials/rd_lf.gif"></div>
+        </div>
+
+        <div id="introduction_3">
+            <div class="introduction-1-head">Our Specializing</div>
+            <div class="int3-img"><img src="A_materials/man_c.jpg"></div>
+            <div class="intr-con3">
+                <div class="line">The focus is on design, development and implementation of new, existing or turnaround call centers. Our team of consultants are world leading providers in solutions that help organizations of all sizes to optimize and streamline their operation and cost.</div>
+                <br/>
+                <div class="line">Our team of consultants are world leading providers in solutions that help organizations of all sizes to optimize and streamline their operation and cost.</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="grid_12" id="footer">
+        <div class="foot1">
+            <span class="ft1">Home &nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+            <span class="ft2">Clients &nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+            <span class="ft3">Services &nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+            <span class="ft4">About us &nbsp&nbsp&nbsp&nbsp&nbsp|</span>
+            <span class="ft5">Contact us</span>
+        </div>
+        <div class="foot2">
+            Copyright@2021,All right reserved.
+        </div>
+    </div>
+</div>
+</body>
+</html>
